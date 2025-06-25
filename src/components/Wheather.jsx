@@ -17,7 +17,7 @@ export const Wheather = ({ degrees = 32, min = 18, max = 39, wheather = 'Nubes y
       <p className='text-center text-balance'>{wheather}</p>
       <div className='flex flex-row justify-between w-full'>
         <span>Mín: {min}º</span>
-        <span>Max: {max}º</span>
+        <span className='text-right'>Max: {max}º</span>
       </div>
     </article>
   );
