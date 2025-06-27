@@ -15,7 +15,7 @@ export const Filters = () => {
       setFilterSelected(filtersTemp);
     }
   };
-  console.log({ filterSelected });
+  // console.log({ filterSelected });
   return (
     <menu className='flex flex-row gap-2'>
       <Filter

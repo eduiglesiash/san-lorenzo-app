@@ -1,6 +1,7 @@
 import './App.css';
-import { Home } from './pages/Home';
-import { Landing } from './pages/Landing';
+import { Home } from '@/pages/Home';
+import { Landing } from '@/pages/Landing';
+import { ActivityDetail } from '@/pages/ActivityDetail';
 // Supports weights 100-900
 import '@fontsource-variable/onest';
 
@@ -18,7 +19,8 @@ function App() {
   return (
     <>
       {/* <Landing /> */}
-      <Home />
+      {/* <Home /> */}
+      <ActivityDetail />
     </>
   );
 }
