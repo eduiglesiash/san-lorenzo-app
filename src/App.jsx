@@ -18,8 +18,8 @@ import '@fontsource/poppins/900.css';
 function App() {
   return (
     <>
-      {/* <Landing /> */}
-      {/* <Home /> */}
+      <Landing />
+      <Home />
       <ActivityDetail />
     </>
   );
